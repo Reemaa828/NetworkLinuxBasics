@@ -1,6 +1,6 @@
 <img src="images/logo.svg" align="left" />
 
-# Introduction to Networking basics
+# Introduction to Networking basics and Linux Networking
 
 
 
