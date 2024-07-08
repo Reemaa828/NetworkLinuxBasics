@@ -1,4 +1,4 @@
-
+# OPEN SYSTEM INTERCOMUNICATION 
 # What's an OSI Model? 
 Open System Interconnection model: is a theoretical model made so different computing devices can communicate with each other efficiently made by the ISO.
 It's also a:
@@ -19,7 +19,8 @@ It's also a:
 
 ## 1️⃣ Application Layer 
 
-![[Pasted image 20240708054835.png]]
+<img src="https://github.com/Reemaa828/NetworkLinuxBasics/assets/112731236/cf6f2b53-77b6-45de-96cd-8a2eeda69e2b" width="1000">
+
 
 Application Layer doesn't mean the programs or network applications but it means the Protocols that make these network applications work on the network correctly.
 the network applications depends on application layer protocols to function.
@@ -32,8 +33,7 @@ so application layer provides network services for network application with the 
 - Telnet: virtual terminals.
 
 ## 2️⃣ Presentation Layer
-![[Pasted image 20240708061443.png]]
-
+<img src="https://github.com/Reemaa828/NetworkLinuxBasics/assets/112731236/2682a7c7-79f6-488a-959c-fdadabea7e04" width="1000">
 
 It performs mainly data translation, encryption & decryption, and compression in the network. On the sender’s side, it receives the data from the applying layer and performs data encryption and compression to it. At the receiver’s end, it receives the data from the transport layer and performs data translation, decryption, and uncompresses data.
 
@@ -43,7 +43,8 @@ It performs mainly data translation, encryption & decryption, and compression in
 
 ## 3️⃣ Session Layer
 
-![[Pasted image 20240708063900.png]]
+
+<img src="https://github.com/Reemaa828/NetworkLinuxBasics/assets/112731236/301ef02e-2845-4aab-bbad-f294621514d1" width="1000" height="150">
 
 - The session Layer is responsible for opening and closing communication between two devices, the session layer ensures that session is opened long enough until all data is being transferred. 
 
@@ -59,8 +60,7 @@ The main tasks of session layer:
 
 ## 4️⃣ Transport Layer
 
-![[Pasted image 20240708151509.png]]
-
+<img src="https://github.com/Reemaa828/NetworkLinuxBasics/assets/112731236/1567c914-7437-4cc6-8c65-eafe7fc90796" width="1000">
 
 The transport layer is responsible for:
 - **Segmentation:** Breaks data into segments, adds port numbers for application identification and sequence number (useful when reassembling).
@@ -73,7 +73,8 @@ the transport layer have two services:
 
 
 ## 5️⃣ Network Layer
-![[Pasted image 20240708154655.png]]
+<img src="https://github.com/Reemaa828/NetworkLinuxBasics/assets/112731236/107c54e2-5a71-42e3-98f7-537902446ed1" width="1000">
+
 The Network Layer facilitate the data transfer between two different networks.
 The Network Layer is responsible for:
 1. **Logical Addressing**: adds IP addresses of sender and receiver to the data segment forming a data packet.
@@ -82,7 +83,8 @@ The Network Layer is responsible for:
 
 ## 6️⃣ Data Link Layer
 
-![[Pasted image 20240708163656.png]]
+<img src="https://github.com/Reemaa828/NetworkLinuxBasics/assets/112731236/fb985264-1836-4dac-8533-aafc764920ea" width="1000">
+
 - The Data Link Layer performs physical addressing by adding MAC addresses to data packet forming a frame.
 - The Data Link Layer is embedded as software in the NIC which supplies a means for data transfer from one computer to another via a media.
 - the Data Link Layer of the **OSI network model** facilitates the transmission of data only in the same network.
@@ -90,8 +92,7 @@ The Network Layer is responsible for:
 - The Data Link Layer, specifically through the Media Access Control (MAC) sublayer, is responsible for regulating how devices share the physical network media (like cables or Wi-Fi) to avoid collisions during data transmission. by CSMA technology (It essentially dictates how devices take turns transmitting data on the shared medium).
 
 ## 7️⃣ Physical Layer
-
-![[Pasted image 20240708171154.png]]
+<img src="https://github.com/Reemaa828/NetworkLinuxBasics/assets/112731236/776a9dee-0dd3-4454-a66c-cdc724084d6d" width="1000">
 
 the **Physical layer** can get the info from the upper layer and convert it into bitstreams(0’s and 1’s), and send it through a physical channel.
 Converts bits to signals.
