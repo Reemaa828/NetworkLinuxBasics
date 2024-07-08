@@ -1,7 +1,12 @@
+<img src="../images/layer.svg" align="left" />
+
 # Open System Interconnection model (OSI)  
+
+
+
 # What's an OSI Model? 
-: is a theoretical model made so different computing devices can communicate with each other efficiently made by the ISO.
-It's also a:
+Open System Interconnection model: is a theoretical model made so different computing devices can communicate with each other efficiently made by the ISO.
+It's also:
 - **Universal Language:** Breaks down network communication into 7 layers, ensuring all devices speak the same networking language
 - **Troubleshooting Tool:** Helps isolate the source of network problems by pinpointing the specific layer where the issue occurs.
 
