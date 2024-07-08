@@ -59,3 +59,39 @@ The main tasks of session layer:
 
 ## 4️⃣ Transport Layer
 
+![[Pasted image 20240708151509.png]]
+
+
+The transport layer is responsible for:
+- **Segmentation:** Breaks data into segments, adds port numbers for application identification and sequence number (useful when reassembling).
+- **Flow Control:** regulating the data transmission rate. It prevents overwhelming the receiver with a data deluge by dynamically adjusting the flow of segments based on network conditions and the receiver's capacity.
+- **Error Control:** Uses checksums to detect errors and request retransmission of corrupt segments.
+
+the transport layer have two services:
+1. **Connection-oriented transmission**: based on TCP protocol where transmitting the data correctly is crucial. waits for feedback.
+2. **Connectionless-oriented transmission**: based on UDP protocol where the speed of receiving/transmitting the data is crucial. doesn't wait for feedback.
+
+
+## 5️⃣ Network Layer
+![[Pasted image 20240708154655.png]]
+The Network Layer facilitate the data transfer between two different networks.
+The Network Layer is responsible for:
+1. **Logical Addressing**: adds IP addresses of sender and receiver to the data segment forming a data packet.
+2. **Routing**: method to rout the data from source to destination.
+3. **Path determination**: Chooses the shortest path to transmit/receive the data packets.
+
+## 6️⃣ Data Link Layer
+
+![[Pasted image 20240708163656.png]]
+- The Data Link Layer performs physical addressing by adding MAC addresses to data packet forming a frame.
+- The Data Link Layer is embedded as software in the NIC which supplies a means for data transfer from one computer to another via a media.
+- the Data Link Layer of the **OSI network model** facilitates the transmission of data only in the same network.
+- the Data Link Layer is also responsible for flow control and error control on the media.
+- The Data Link Layer, specifically through the Media Access Control (MAC) sublayer, is responsible for regulating how devices share the physical network media (like cables or Wi-Fi) to avoid collisions during data transmission. by CSMA technology (It essentially dictates how devices take turns transmitting data on the shared medium).
+
+## 7️⃣ Physical Layer
+
+![[Pasted image 20240708171154.png]]
+
+the **Physical layer** can get the info from the upper layer and convert it into bitstreams(0’s and 1’s), and send it through a physical channel.
+Converts bits to signals.
