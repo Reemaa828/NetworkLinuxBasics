@@ -1,4 +1,4 @@
-<img src="../images/layer.svg" align="left" />
+<img src="../images/layer.svg" align="left" width="90" />
 
 # Open System Interconnection model (OSI)  
 
