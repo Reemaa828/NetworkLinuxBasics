@@ -1,10 +1,10 @@
-<img src="../images/layer.svg" align="left" width="90" />
+<img src="../images/layer.svg" align="left" width="82" />
 
 # Open System Interconnection model (OSI)  
 
 
 
-# What's an OSI Model? 
+# What's an OSI Model❓
 Open System Interconnection model: is a theoretical model made so different computing devices can communicate with each other efficiently made by the ISO.
 It's also:
 - **Universal Language:** Breaks down network communication into 7 layers, ensuring all devices speak the same networking language
