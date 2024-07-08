@@ -101,3 +101,10 @@ The Network Layer is responsible for:
 
 the **Physical layer** can get the info from the upper layer and convert it into bitstreams(0’s and 1’s), and send it through a physical channel.
 Converts bits to signals.
+___
+> [!NOTE]
+> [arabic youtube video osi layer](https://www.youtube.com/watch?v=61kRxdZ5p-o&list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c&index=8)
+> 
+> [english youtube video osi layer](https://www.youtube.com/watch?v=vv4y_uOneC0&t=609s)
+> 
+> [GitHub repo for osi layer](https://github.com/sprytnyk/the-osi-model/tree/master)
