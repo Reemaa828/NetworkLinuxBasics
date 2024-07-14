@@ -1,0 +1,15 @@
+# What info can be extracted from `ping`❓
+show you if your TCP/IP stack is working properly locally.
+- **Reachability:** The most basic information is whether the target host (website or IP address) is reachable or not. If a response is received, the host is reachable.
+- **packet transmission time**
+- **packet loss and transmission**
+
+# Important Usages
+## `ping <dns name|ip address>`
+![[Pasted image 20240714183121.png]]
+
+## `ping -c 5 <dns name|ip address>` to send specific number of ICMP packet
+![[Pasted image 20240714183316.png]]
+
+## `ping -s 76 -c 5 <dns name|ip address>` to send a packet of specific size and count 5
+![[Pasted image 20240714183625.png]]
