@@ -1,6 +1,6 @@
 # Network101: Network Fundamentals and Concepts 🌟
 ## Table of Contents
-- [Introduction about Computer Networking](https://github.com/Reemaa828/NetworkLinuxBasics/blob/main/Network101/0.Intro.md)
+- [Introduction to Computer Networking](https://github.com/Reemaa828/NetworkLinuxBasics/blob/main/Network101/0.Intro.md)
 - [Common Topologies used in Networks](https://github.com/Reemaa828/NetworkLinuxBasics/blob/main/Network101/1.Topologies.md)
 - [Network Types and Host Roles](https://github.com/Reemaa828/NetworkLinuxBasics/blob/main/Network101/2.TypesNetwork.md)
 - [What's Network Interface Card(NIC)](https://github.com/Reemaa828/NetworkLinuxBasics/blob/main/Network101/3.NetworkInterfaceCard.md)
